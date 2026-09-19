@@ -1,0 +1,12 @@
+[package]
+name = "cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ats = { version = "0.1.0", path = "../crates/ats" }
+manticore = { version = "0.1.0", path = "../crates/manticore" }
+render = { version = "0.1.0", path = "../crates/render" }
+store = { version = "0.1.0", path = "../crates/store" }
+tailor = { version = "0.1.0", path = "../crates/tailor" }
+clap = {workspace = true, features = ["derive"]}

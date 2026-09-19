@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = ["crates/*", "cli"]
+
+[workspace.dependencies]
+thiserror = "2"
+serde = {version = "1", features = ["derive"]}
+serde_yaml = { package = "yaml_serde", version = "0.10" }
+clap = { version = "4.6", features = ["derive"]}

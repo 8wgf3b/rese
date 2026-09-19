@@ -1,0 +1,8 @@
+[package]
+name = "llm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ats = { version = "0.1.0", path = "../ats" }
+manticore = { version = "0.1.0", path = "../manticore" }
